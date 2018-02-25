@@ -38,7 +38,11 @@ class Quake : NSObject {
                     return
                 }
                 
-                print(parsedResult)
+                if let quakeDic = parsedResult["features"] as? [String:AnyObject] {
+                    print(quakeDic)
+                }
+                
+           
             }
         }
     }
