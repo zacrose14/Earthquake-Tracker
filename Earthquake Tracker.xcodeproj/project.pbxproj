@@ -12,6 +12,7 @@
 		1120DD5220424A8F0033ABE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1120DD5020424A8F0033ABE6 /* Main.storyboard */; };
 		1120DD5420424A940033ABE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1120DD5320424A940033ABE6 /* Assets.xcassets */; };
 		1120DD5720424A940033ABE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1120DD5520424A940033ABE6 /* LaunchScreen.storyboard */; };
+		1120DD6120424B4A0033ABE6 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1120DD6020424B4A0033ABE6 /* Networking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1120DD5320424A940033ABE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1120DD5620424A940033ABE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1120DD5820424A940033ABE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1120DD6020424B4A0033ABE6 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				1120DD4C20424A8F0033ABE6 /* AppDelegate.swift */,
 				1120DD4E20424A8F0033ABE6 /* ViewController.swift */,
+				1120DD6020424B4A0033ABE6 /* Networking.swift */,
 				1120DD5020424A8F0033ABE6 /* Main.storyboard */,
 				1120DD5320424A940033ABE6 /* Assets.xcassets */,
 				1120DD5520424A940033ABE6 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				1120DD4F20424A8F0033ABE6 /* ViewController.swift in Sources */,
 				1120DD4D20424A8F0033ABE6 /* AppDelegate.swift in Sources */,
+				1120DD6120424B4A0033ABE6 /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
